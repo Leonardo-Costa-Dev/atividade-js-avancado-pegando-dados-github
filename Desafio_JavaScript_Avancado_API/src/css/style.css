@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(40deg, #a82323, #000);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 50px;
+    background-image: linear-gradient(to bottom,#a82323 30%, #969191 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+header i {
+    font-size: 50px;
+}
+
+.userSearch  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userSearch input {
+    font-size: 15px;
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.userSearch #btn {
+    margin-top: 20px;
+    width: 200px;
+    background-image: linear-gradient(40deg, #a82323, #000);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.userSearch #btn:hover {
+    background-image: linear-gradient(40deg, #000,#a82323);
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+
+.userData {
+    padding: 20px;
+    color: #969191;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.userData img {
+    width: 200px;
+    border-radius: 100px;
+    border: 5px #000000 solid;
+    
+}
+
+.userData h3 {
+    padding: 5px;
+}
+
+.userData .event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+    padding: 10px;
+}
+
+.userData .event ul li {
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    
+}
+
+.userData .event ul li span {
+    color: #969191;
+    padding: 8px;
+}
+
+.userData .repositories ul li  {
+    padding: 10px;
+}
+
+.userData .repositories ul li a{
+    color: #969191;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.userData .repositories span {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 6px;
+}
+
+.userData .repositories span h3 {
+    font-size: 13px;
+    background-color: #4b0606;
+    border: solid 1px;
+    border-radius: 5px;
+}
